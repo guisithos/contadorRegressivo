@@ -1,20 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void f2(int n)
+
+void f2(int num)
 {
- if (n == 0)
-     printf("zero ");
+ if (num == 0)
+     printf("zero");
  else
  {
-     printf("%d ", n);
-     f2(n-1);
+     printf("%d  ", num);
+     f2(num-1);
  }
 }
 
 void main(){
- int a;
+ int anot;
  printf("Digite um valor inteiro:");
- scanf("%d", &a);
- f2(a);
+ scanf("%d", &anot);
+ f2(anot);
 }
