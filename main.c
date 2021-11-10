@@ -15,7 +15,7 @@ void f2(int num)
 
 void main(){
  int anot;
- printf("Digite um valor inteiro: ");
- scanf("%d", &anot);
- f2(anot);
+ printf ("Digite um valor inteiro: ");
+ scanf ("%d", &anot);
+ f2 (anot);
 }
