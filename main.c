@@ -2,14 +2,14 @@
 #include <stdlib.h>
 
 
-void f2 (int num)
+void fm (int num)
 {
  if (num == 0)
      printf ("zero");
  else
  {
      printf("%d  ", num);
-     f2 (num-1);
+     fm (num-1);
  }
 }
 
@@ -17,5 +17,5 @@ void main(){
  int anot;
  printf ("Digite um valor inteiro: ");
  scanf ("%d", &anot);
- f2 (anot);
+ fm (anot);
 }
