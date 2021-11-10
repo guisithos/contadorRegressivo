@@ -2,14 +2,14 @@
 #include <stdlib.h>
 
 
-void f2(int num)
+void f2 (int num)
 {
  if (num == 0)
-     printf("zero");
+     printf ("zero");
  else
  {
      printf("%d  ", num);
-     f2(num-1);
+     f2 (num-1);
  }
 }
 
